@@ -1,0 +1,27 @@
+* An interface for OSX iTunes
+
+** Introduction
+osx-itunes is a Emacs interface for iTunes.
+
+You can play or pause the currently playing music.
+
+And you can mark tracks as Loved. It helps Apple Music’s recommendations.
+
+This script supports marking online Apple music.
+
+** Installation
+1. Download from https://github.com/emuio/osx-itunes
+
+2. Add osx-itunes directory to the load path.
+
+   or copy 'osx-itunes.el' to your load path.
+
+3. Add the code below in your .emacs
+#+BEGIN_SRC emacs-lisp
+(require 'osx-itunes)
+#+END_SRC
+
+** Usage
+- osx-itunes-play-or-pause :: Tell itunes to play or pause.
+- osx-itunes-love-current :: Tell itunes to love current music.
+- osx-itunes-unlove-current :: Tell itunes to unlove current music.
