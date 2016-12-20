@@ -82,13 +82,13 @@ end tell'" script))
 (defun osx-itunes-love-current ()
   "Tell itunes to love current music."
   (interactive)
-  (osx-itunes-set-loved-or-not t))
+  (message (osx-itunes-set-loved-or-not t)))
 ;; (osx-itunes-love-current)
 
 (defun osx-itunes-unlove-current ()
   "Tell itunes to unlove current music."
   (interactive)
-  (osx-itunes-set-loved-or-not nil))
+  (message (osx-itunes-set-loved-or-not nil)))
 ;; (osx-itunes-unlove-current)
 
 ;;; osx-itunes.el ends here
